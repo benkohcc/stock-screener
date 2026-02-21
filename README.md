@@ -90,6 +90,20 @@ Example: DXCM scored 70.6 but was disqualified after research found Barclays dow
 
 ---
 
+## Coming Soon: Visual Report
+
+A refined visual report is in development, replacing the raw markdown output with a polished, scannable format.
+
+**Stock Report Header** — portfolio-level summary with overall conviction score and top picks:
+
+![Stock Report Header](docs/Stock%20Report%20Header.png)
+
+**Individual Stock Card** — per-stock breakdown with score, rationale, and key metrics:
+
+![Individual Stock Card](docs/Individual%20Stock%20Card.png)
+
+---
+
 ## Output Files
 
 All saved to **`~/Desktop/`** with timestamps to prevent overwrites:
