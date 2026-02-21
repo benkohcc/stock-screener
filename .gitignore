@@ -1,0 +1,26 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# macOS metadata
+.DS_Store
+
+# Generated output files
+screening_results_live.csv
+screening_output.log
+*.log
+screening_results_*.csv
+screening_output_*.log
+phase1_top15_*.json
+
+# Claude Code local config
+.claude/
+
+# IDE files
+.vscode/
+.idea/
