@@ -2,6 +2,39 @@
 
 A Claude Code skill for identifying high-growth potential stocks using a **two-phase research-validated methodology**.
 
+## What Makes This Different
+
+**Traditional stock screeners:**
+- Generic rationales: "Strong fundamentals, good setup"
+- No validation against current news/analyst sentiment
+- Risk of outdated information
+
+**This research-validated screener:**
+- Searches latest analyst reports (current month)
+- Finds specific price targets (e.g., "Bernstein $330, Rosenblatt $500")
+- Actual earnings guidance (e.g., "Q2 EPS $8.42, +440% YoY")
+- **Deep fundamental validation** (balance sheet health, competitive position, management quality)
+- **Red flag screening** (SEC investigations, credit downgrades, executive departures)
+- **Removes stocks** where research contradicts buy signal OR critical red flags exist
+
+Example: DXCM scored 70.6 but was disqualified after research found Barclays downgrade and -16.7% YoY performance.
+
+---
+
+## Coming Soon: Visual Report
+
+A refined visual report is in development, replacing the raw markdown output with a polished, scannable format.
+
+**Stock Report Header** — portfolio-level summary with overall conviction score and top picks:
+
+![Stock Report Header](docs/Stock%20Report%20Header.png)
+
+**Individual Stock Card** — per-stock breakdown with score, rationale, and key metrics:
+
+![Individual Stock Card](docs/Individual%20Stock%20Card.png)
+
+---
+
 ## Quick Start
 
 **Recommended: Full Research-Validated Screening**
@@ -68,39 +101,6 @@ python run_real_screening.py
 - Industry/sector trends
 - Risk factors (including deep dive findings)
 - Saves to: `~/Desktop/TOP_10_STOCKS_{timestamp}.md`
-
----
-
-## What Makes This Different
-
-**Traditional stock screeners:**
-- Generic rationales: "Strong fundamentals, good setup"
-- No validation against current news/analyst sentiment
-- Risk of outdated information
-
-**This research-validated screener:**
-- Searches latest analyst reports (current month)
-- Finds specific price targets (e.g., "Bernstein $330, Rosenblatt $500")
-- Actual earnings guidance (e.g., "Q2 EPS $8.42, +440% YoY")
-- **Deep fundamental validation** (balance sheet health, competitive position, management quality)
-- **Red flag screening** (SEC investigations, credit downgrades, executive departures)
-- **Removes stocks** where research contradicts buy signal OR critical red flags exist
-
-Example: DXCM scored 70.6 but was disqualified after research found Barclays downgrade and -16.7% YoY performance.
-
----
-
-## Coming Soon: Visual Report
-
-A refined visual report is in development, replacing the raw markdown output with a polished, scannable format.
-
-**Stock Report Header** — portfolio-level summary with overall conviction score and top picks:
-
-![Stock Report Header](docs/Stock%20Report%20Header.png)
-
-**Individual Stock Card** — per-stock breakdown with score, rationale, and key metrics:
-
-![Individual Stock Card](docs/Individual%20Stock%20Card.png)
 
 ---
 
