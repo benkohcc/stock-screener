@@ -79,7 +79,7 @@ python run_real_screening.py
 - Risk of outdated information
 
 **This research-validated screener:**
-- Searches January 2026 analyst reports
+- Searches latest analyst reports (current month)
 - Finds specific price targets (e.g., "Bernstein $330, Rosenblatt $500")
 - Actual earnings guidance (e.g., "Q2 EPS $8.42, +440% YoY")
 - **Deep fundamental validation** (balance sheet health, competitive position, management quality)
